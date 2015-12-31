@@ -82,6 +82,4 @@ class ImageTag extends DataObject implements PermissionProvider
             ),
         );
     }
-
-
 }

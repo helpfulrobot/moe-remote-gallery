@@ -32,7 +32,6 @@ class GalleryPage extends Page
 
         return $fields;
     }
-
 }
 
 /**
@@ -62,5 +61,4 @@ class GalleryPage_Controller extends Page_Controller
     {
         return RemoteImage::get()->filter(array("GalleryPageID" => $this->ID))->sort('Created', 'DESC');
     }
-
 }

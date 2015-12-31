@@ -202,5 +202,4 @@ class RemoteImage extends DataObject implements PermissionProvider
             ),
         );
     }
-
 }

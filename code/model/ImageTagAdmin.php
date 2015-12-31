@@ -17,5 +17,4 @@ class ImageTagAdmin extends ModelAdmin
     {
         return true;
     }
-
 }

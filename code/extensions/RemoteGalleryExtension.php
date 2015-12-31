@@ -18,5 +18,4 @@ class RemoteGalleryExtension extends DataExtension
                 ->setDescription("Useful if you have a CloudFront URL for example"),
         ));
     }
-
 }
